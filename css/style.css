@@ -1,0 +1,155 @@
+body {
+    font-family: "Vibur";
+    background-color: #13fe5d3a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    font-size: 22px;
+    background-image: url(/image/forest.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 0 0 7px rgb(5, 241, 25),
+        0 0 10px rgb(4, 241, 75),
+        0 0 21px rgb(4, 238, 74),
+        0 0 42px rgb(0, 236, 86),
+        0 0 82px rgb(0, 255, 76),
+        0 0 92px rgb(3, 253, 107),
+        0 0 102px rgb(0, 255, 60),
+        0 0 151px rgb(0, 255, 30);
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 0.2rem #fff,
+        0 0 0.2rem #fff, 0 0 2rem #13fe81,
+        0 0 0.8rem #13fe65,
+        0 0 2.8rem #13fe75,
+        inset 0 0 1.3rem #13fe5d;
+}
+
+.sidebar {
+    background-color: #0b511f;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    text-shadow: 0 0 7px rgb(5, 241, 25),
+        0 0 10px rgb(4, 241, 75),
+        0 0 21px rgb(4, 238, 74),
+        0 0 42px rgb(0, 236, 86),
+        0 0 82px rgb(0, 255, 76),
+        0 0 92px rgb(3, 253, 107),
+        0 0 102px rgb(0, 255, 60),
+        0 0 151px rgb(0, 255, 30);
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 0.2rem #fff,
+        0 0 0.2rem #fff, 0 0 2rem #13fe81,
+        0 0 0.8rem #13fe65,
+        0 0 2.8rem #13fe75,
+        inset 0 0 1.3rem #13fe5d;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    text-shadow: 0 0 7px rgb(5, 241, 25),
+        0 0 10px rgb(4, 241, 75),
+        0 0 21px rgb(4, 238, 74),
+        0 0 42px rgb(0, 236, 86),
+        0 0 82px rgb(0, 255, 76),
+        0 0 92px rgb(3, 253, 107),
+        0 0 102px rgb(0, 255, 60),
+        0 0 151px rgb(0, 255, 30);
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 0.2rem #fff,
+        0 0 0.2rem #fff, 0 0 2rem #13fe81,
+        0 0 0.8rem #13fe65,
+        0 0 2.8rem #13fe75,
+        inset 0 0 1.3rem #13fe5d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 680px;
+    /* Space between sidebar and content */
+}
+
+.nextpagebutton,
+.creditbutton {
+    font-family: "Vibur";
+    background-color: rgb(50, 159, 58);
+    text-align: center;
+    margin-top: 20px;
+    width: 500px;
+    height: 100px;
+    font-size: medium;
+    text-decoration: none;
+    list-style-type: none;
+    text-shadow: 0 0 7px rgb(5, 241, 25),
+        0 0 10px rgb(4, 241, 75),
+        0 0 21px rgb(4, 238, 74),
+        0 0 42px rgb(0, 236, 86),
+        0 0 82px rgb(0, 255, 76),
+        0 0 92px rgb(3, 253, 107),
+        0 0 102px rgb(0, 255, 60),
+        0 0 151px rgb(0, 255, 30);
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 0.2rem #fff,
+        0 0 0.2rem #fff, 0 0 2rem #13fe81,
+        0 0 0.8rem #13fe65,
+        0 0 2.8rem #13fe75,
+        inset 0 0 1.3rem #13fe5d;
+}
+
+.intro {
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+
+.image {
+    margin-left: 830px;
+    top: 50px;
+    text-shadow: 0 0 7px rgb(5, 241, 25),
+        0 0 10px rgb(4, 241, 75),
+        0 0 21px rgb(4, 238, 74),
+        0 0 42px rgb(0, 236, 86),
+        0 0 82px rgb(0, 255, 76),
+        0 0 92px rgb(3, 253, 107),
+        0 0 102px rgb(0, 255, 60),
+        0 0 151px rgb(0, 255, 30);
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 0.2rem #fff,
+        0 0 0.2rem #fff, 0 0 2rem #13fe81,
+        0 0 0.8rem #13fe65,
+        0 0 2.8rem #13fe75,
+        inset 0 0 1.3rem #13fe5d;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: #ddd;
+    text-shadow: 0 0 7px rgb(5, 241, 25),
+        0 0 10px rgb(4, 241, 75),
+        0 0 21px rgb(4, 238, 74),
+        0 0 42px rgb(0, 236, 86),
+        0 0 82px rgb(0, 255, 76),
+        0 0 92px rgb(3, 253, 107),
+        0 0 102px rgb(0, 255, 60),
+        0 0 151px rgb(0, 255, 30);
+}

@@ -1,0 +1,108 @@
+
+ 
+.container{
+    margin-left: 1500px;
+}
+
+body {
+    font-family: "Vibur";
+    background-color: #13fe5d3a;
+    background-image: url(/image/forest.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: #ddd;
+    text-shadow: 0 0 7px rgb(5, 241, 25),
+        0 0 10px rgb(4, 241, 75),
+        0 0 21px rgb(4, 238, 74),
+        0 0 42px rgb(0, 236, 86),
+        0 0 82px rgb(0, 255, 76),
+        0 0 92px rgb(3, 253, 107),
+        0 0 102px rgb(0, 255, 60),
+        0 0 151px rgb(0, 255, 30);
+}
+.sidebar {
+    background-color: #0b511f;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    text-shadow: 0 0 7px rgb(5, 241, 25),
+        0 0 10px rgb(4, 241, 75),
+        0 0 21px rgb(4, 238, 74),
+        0 0 42px rgb(0, 236, 86),
+        0 0 82px rgb(0, 255, 76),
+        0 0 92px rgb(3, 253, 107),
+        0 0 102px rgb(0, 255, 60),
+        0 0 151px rgb(0, 255, 30);
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 0.2rem #fff,
+        0 0 0.2rem #fff, 0 0 2rem #13fe81,
+        0 0 0.8rem #13fe65,
+        0 0 2.8rem #13fe75,
+        inset 0 0 1.3rem #13fe5d;
+}
+
+.returnpagebutton {
+    font-family: "Vibur";
+    background-color: rgb(50, 159, 58);
+    text-align: center;
+    margin-left: 900px;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    text-decoration: none;
+    list-style-type: none;
+    text-shadow: 0 0 7px rgb(5, 241, 25),
+        0 0 10px rgb(4, 241, 75),
+        0 0 21px rgb(4, 238, 74),
+        0 0 42px rgb(0, 236, 86),
+        0 0 82px rgb(0, 255, 76),
+        0 0 92px rgb(3, 253, 107),
+        0 0 102px rgb(0, 255, 60),
+        0 0 151px rgb(0, 255, 30);
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 0.2rem #fff,
+        0 0 0.2rem #fff, 0 0 2rem #13fe81,
+        0 0 0.8rem #13fe65,
+        0 0 2.8rem #13fe75,
+        inset 0 0 1.3rem #13fe5d;
+}
+
+.board{
+    margin-left: 500px;
+    flex-direction: column;
+    min-height: 81vh;
+    box-shadow: 0 0 0.0rem #fff,
+    0 0 0.0rem #fff, 0 0 1rem #13fe81,
+    0 0 0.0rem #13fe65,
+    0 0 0.0rem #13fe75,
+    inset 0 0 0.0rem #13fe5d;
+}
+
+
+.score{
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
